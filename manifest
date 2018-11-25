@@ -2,4 +2,4 @@
 00002-global-sensors-permission-toggle.patch
 00003-disable-menu-entries-in-recovery.patch
 00004-increase-default-maximum-password-length.patch
-00005-microg-sigspoof.patch
+10004-microg-sigspoof.patch
