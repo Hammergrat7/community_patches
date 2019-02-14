@@ -2,8 +2,17 @@
 These are optional patches provided by the community that can be applied to the RattlesnakeOS build process. Both patches and shell scripts are supported. 
 
 ## How do I add these patches to my builds?
-You can read more about custom patches in the [customization section of the rattlesnakeos-stack FAQ](https://github.com/dan-v/rattlesnakeos-stack#customizations). 
-
+Add the following to end of your `rattlesnakeos-stack` config file.
+```
+[[custom-patches]]
+repo = "https://github.com/Hammergrat7/community_patches"
+patches = [
+        "00001-global-internet-permission-toggle.patch",
+        "00002-global-sensors-permission-toggle.patch",
+        "00003-disable-menu-entries-in-recovery.patch",
+        "00004-increase-default-maximum-password-length.patch"
+]
+```
 ## Submitting Community Patches
 Rules for submitting a patch:
 * Patches should have a number and name describing patch (e.g. 00002-description-of-patch.patch)
