@@ -13,7 +13,7 @@ patches = [
         "00004-increase-default-maximum-password-length.patch",
         "00005-enable-powersaving-features.patch",
         "00006-use-cloudflare-dns.patch",
-        "00007-disable-supl-agps.patch"
+        "00007-disable-agps.patch"
 ]
 ```
 ## Submitting Community Patches
